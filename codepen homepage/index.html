@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/173e346b21.js" crossorigin="anonymous"></script>
+    <script src="java/hamburger.js"></script>
+    <title>CodePen</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+              <div class="logo">
+                <h1><img src="media/logo.png" alt="logo" width="216px" height="100%"></h1>
+              </div>
+              <nav class="navigation">
+                <ul class="desktop-menu">
+                  <li class="main-menu"><a href="#">Home</a>
+                    <ul class="dropdown">
+                      <li><a href="#">Home 1</a></li>
+                      <li><a href="#">Home 1</a></li>
+                      <li><a href="#">Home 1</a></li>
+                    </ul>
+                  </li>
+                  <li class="main-menu"><a href="#">about</a>
+                    <ul class="dropdown">
+                      <li><a href="#">About 1</a></li>
+                      <li><a href="#">About 1</a></li>
+                      <li><a href="#">About 1</a></li>
+                    </ul>
+                  </li>
+                  <li class="main-menu"><a href="#">Contact</a> </li>
+                  <li class="main-menu"><a href="#">Blog</a></li>
+                </ul>
+              </nav>
+              <div id="mySidenav" class="sidenav">
+                <div class="mobile-nav"><a href="javascript:void(0)" class="closebtn" onClick="closeNav()">&times;</a></div>
+                <div class="mobile-nav"><a href="#">Pens</a>
+                </div>
+                <div class="mobile-nav"><a href="#">Projects</a>
+                </div>
+                <div class="mobile-nav"><a href="#">Posts</a> </div>
+                <div class="mobile-nav"><a href="#">Collections</a></div>
+              </div>
+              <span class="mobile-menu-bar" onclick="openNav()">&#9776;</span>
+            </div>
+          </div>
+    </header>
+
+    <div class="intro">
+        <h1>
+          CodePen is a <span>social development environment</span> for front-end designers and developers.<i class="fa-solid fa-hands-clapping"></i>
+        </h1>
+    </div>
+    <div class="follow">
+      <h2>It's the best place to build and deploy a website, show off your work, build test cases, and find inspiration.</h2>
+    </div>
+    
+
+</body>
+</html>
