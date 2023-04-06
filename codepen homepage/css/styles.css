@@ -163,7 +163,6 @@ body {
     font-weight:100;
   }
 
-
   @media (max-width: 1200px) {
     .container {
       width: auto;
@@ -177,5 +176,39 @@ body {
     .navigation {
       display: none;
     }
+
+    .buttons-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 10px;
+    }
+
+    .signup-bottom {
+      display: flex;
+      justify-content: center;
+    }
+    .signup-bottom button{
+      background-color: #4bce79;
+      color: #000;
+      font-family: 'Spline Sans Mono', monospace;
+      font-weight: bolder;
+      font-size: 15px;
+      border-radius: 5px;
+      border: solid #4bce79;
+    }
+
+    .learn-bottom {
+      display: flex;
+      justify-content: center;
+    }
+
+    .learn-bottom button{
+      background-color: #333;
+      color: #fff;
+      font-family: 'Spline Sans Mono', monospace;
+      font-weight: bolder;
+      font-size: 15px;
+      border-radius: 5px;
+      border: solid #333;
   }
-  
+}
